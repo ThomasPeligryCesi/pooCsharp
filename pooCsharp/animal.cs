@@ -17,14 +17,14 @@ public class Animal
 
     private string Name;
 
-    public void move()
+    public void Move()
     {
-        console.WriteLine(Name + "se dandine et se déplace!");
+        Console.WriteLine(Name + " se dandine et se déplace!");
     }
 
     public void Sleep()
     {
-        console.WriteLine(Name + "s'est endormi et ronfle fort!");
+        Console.WriteLine(Name + " s'est endormi et ronfle fort!");
     }
 }
 

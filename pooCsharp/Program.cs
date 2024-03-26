@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("entre le nom d'un animal");
+        string animalName = Console.ReadLine();
+        Animal animal = new Animal(animalName);
+        animal.Move();
+        animal.Sleep();
+    }
+}
