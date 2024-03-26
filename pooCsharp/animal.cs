@@ -5,7 +5,7 @@
 /// </summary>
 public abstract class Animal
 {
-    public string Name { get { return Name; } protected set { Name = value; } }
+    public string Name { get; protected set; }
     public abstract void Move();
     public abstract void Sleep();
 }

@@ -1,4 +1,4 @@
-﻿public class Dragon : Animal
+﻿public class Dragon : Animal, IPilotage
 {
     Dragon()
     {
@@ -10,7 +10,11 @@
     }
     public override void Move()
     {
-        Console.WriteLine("*flap flap, bruits du gros "+this.Name +" le dragon qui bouge*");
+        Console.WriteLine("*flap flap, bruits du gros " + this.Name + " le dragon qui bouge*");
+    }
+    public void Move2()
+    {
+        Console.WriteLine("*flap flap, bruits du gros " + this.Name + " le dragon qui bouge mais en pilotant*");
     }
     public override void Sleep()
     {
